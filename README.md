@@ -1,14 +1,14 @@
 # Fashion-MNIST-Classification
-# Fashion-MNIST Classification – Neural Network from Scratch
+# 🧵 Fashion-MNIST Classification – Neural Network from Scratch
 
 A deep learning model built entirely in NumPy to classify clothing images from the Fashion-MNIST dataset.
 No TensorFlow. No PyTorch. Just raw math, forward propagation, and backward propagation coded from scratch 🚀
 
-# Problem Statement
-
+# 📝 Problem Statement
+ 
 In this assignment, you will implement a feedforward neural network and manually code the backpropagation algorithm for training. You must use NumPy for all matrix and vector operations, without any automatic differentiation packages. The network will be trained on the Fashion-MNIST dataset to classify 28×28 grayscale images into 10 fashion categories. The project also explores various optimization techniques and hyperparameter tuning to enhance model performance. The implementation utilizes NumPy, Pandas, and Matplotlib, with Keras for dataset loading and Scikit-learn's train_test_split for data preprocessing.
 
-# Project Highlights
+# 📌 Project Highlights
 
 - From-Scratch Implementation – no auto-differentiation, manual gradient calculations
 
@@ -20,7 +20,7 @@ In this assignment, you will implement a feedforward neural network and manually
 
 - Generalization Testing – model evaluated on both Fashion-MNIST and MNIST
 
-# Dataset
+# 📂 Dataset
 
 Fashion-MNIST contains:
 
@@ -30,7 +30,7 @@ Fashion-MNIST contains:
 
 - 28×28 grayscale images
 
-# Preprocessing
+# 🔄Preprocessing
 
 - Flattening – each 28×28 image → 784-dimensional vector
 
@@ -38,7 +38,7 @@ Fashion-MNIST contains:
 
 - One-hot encoding – labels converted to 10-dimensional binary vectors
 
-# Neural Network Workflow
+# ⚙️ Neural Network Workflow
 
 # Forward Propagation
 
@@ -62,7 +62,7 @@ Fashion-MNIST contains:
 
 - Repeat for multiple epochs until convergence
 
-# Optimization Algorithms Implemented
+# 🛠 Optimization Algorithms Implemented
 
 - SGD – Stochastic Gradient Descent
 
@@ -76,7 +76,7 @@ Fashion-MNIST contains:
 
 - Nadam – Adam + Nesterov momentum
 
-# Hyperparameter Tuning
+# 🔬Hyperparameter Tuning
 
 - Using Weights & Biases, explored multiple configurations:
 
@@ -94,13 +94,13 @@ Fashion-MNIST contains:
 
 - Weight init: Xavier, Random
 
-# Evaluation
+# 📊Evaluation
 
 - Confusion Matrix for best-performing model
 
 - Model also tested on MNIST handwritten digits for generalization
 
-# Tech Stack
+# 🚀 Tech Stack
 
 - Python (NumPy, Pandas, Matplotlib)
 
